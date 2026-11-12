@@ -27,9 +27,15 @@ function shortestPathBFS(s,t,g) {
     // Implementér resten af koden herunder
     // ...
     
+    visitedSet.add(g.key(s))
     q.enqueue(s)
-    while q.length === 0
-        
+    while (!q.isEmpty()) {
+        const n = q.dequeue
+    }
+
+
+
+    
 
     return path;
 }  
