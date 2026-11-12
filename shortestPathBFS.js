@@ -27,6 +27,10 @@ function shortestPathBFS(s,t,g) {
     // Implementér resten af koden herunder
     // ...
     
+    q.enqueue(s)
+    while q.length === 0
+        
+
     return path;
 }  
 
